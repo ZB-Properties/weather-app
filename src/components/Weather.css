@@ -62,8 +62,8 @@ input::placeholder {
 }
 .search-icon {
     cursor: pointer;
-    width: 28px;
-    height: 28px;
+    width: 27px;
+    height: 27px;
     transition: all 0.3s ease-out;
     color: white;
 }    
@@ -260,8 +260,8 @@ input::placeholder {
         gap: 8px;
     }
     .search-icon {
-        width: 29px;
-        height: 29px;
+        width: 25px;
+        height: 25px;
     }
     .input-button1 {
         font-size: 16px;
@@ -340,8 +340,8 @@ input::placeholder {
         gap: 6px;
     }
     .search-icon {
-        width: 25px;
-        height: 25px;
+        width: 22px;
+        height: 22px;
     }
     .input-button1 {
         font-size: 13px;
@@ -420,8 +420,8 @@ input::placeholder {
         gap: 5px;
     }
     .search-icon {
-        width: 22px;
-        height: 22px;
+        width: 19px;
+        height: 19px;
     }
     .input-button1 {
         font-size: 11px;
@@ -500,8 +500,8 @@ input::placeholder {
         gap: 3.5px;
     }
     .search-icon {
-        width: 19px;
-        height: 19px;
+        width: 16px;
+        height: 16px;
     }
     .input-button1 {
         font-size: 10px;
