@@ -252,7 +252,6 @@ input::placeholder {
        padding: 3px;
     }
     .input-search {
-        width: 63%;
         gap: 8px;
     }
     .search-icon {
@@ -330,7 +329,6 @@ input::placeholder {
        padding: 3px;
     }
     .input-search {
-        width: 52%;
         gap: 6px;
     }
     .search-icon {
@@ -408,7 +406,6 @@ input::placeholder {
        padding: 3px;
     }
     .input-search {
-        width: 42%;
         gap: 5px;
     }
     .search-icon {
@@ -486,7 +483,6 @@ input::placeholder {
        padding: 3px;
     }
     .input-search {
-        width: 37px;
         gap: 3.5px;
     }
     .search-icon {
