@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base: '/weather-app/',
   server: {
     port: 3300,
   }
