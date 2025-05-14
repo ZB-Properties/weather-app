@@ -60,7 +60,7 @@ input::placeholder {
 }
 .search-icon {
     cursor: pointer;
-    font-size: 21px;
+    width: 30ch;
     transition: all 0.3s ease-out;
     color: white;
 }    
@@ -251,7 +251,7 @@ input::placeholder {
        padding: 3px;
     }
     .search-icon {
-        font-size: 18px;
+        width: 26ch;
     }
     .input-button1 {
         font-size: 16px;
@@ -324,7 +324,7 @@ input::placeholder {
        padding: 3px;
     }
     .search-icon {
-        font-size: 17.5px;
+        width: 23ch;
     }
     .input-button1 {
         font-size: 13px;
@@ -397,7 +397,7 @@ input::placeholder {
        padding: 3px;
     }
     .search-icon {
-        font-size: 15.5px;
+        width: 21ch;
     }
     .input-button1 {
         font-size: 11px;
@@ -470,7 +470,7 @@ input::placeholder {
        padding: 3px;
     }
     .search-icon {
-        font-size: 14px;
+        width: 18ch;
     }
     .input-button1 {
         font-size: 10px;
