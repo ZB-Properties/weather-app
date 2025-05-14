@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 85px;
+  padding-right: 85px;
+  background-image: linear-gradient(to right);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+            0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 3px 0 rgb(156 163 175),  
+            0 1px 2px 0 rgb(156 163 175);
+         
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width:991px) {
+  .app {
+    max-width: 500px;
+    max-height: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 599px) {
+  .app {
+    max-width: 390px;
+    max-height: 20%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 419px) {
+  .app {
+    max-width: 300px;
+    max-height: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 230px) and (max-width: 329px) {
+  .app {
+    max-width: 270px;
+    max-height: 20%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

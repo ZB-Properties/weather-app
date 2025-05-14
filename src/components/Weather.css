@@ -1,0 +1,530 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.top-buttons {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+}
+.top-buttons:hover {
+    background-color: rgba(55, 65, 81, 0.2);
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.input input {
+    color: #6b7280; 
+    font-weight: 300;
+    font-size: 17px;
+    padding: 5px;
+    width: fit-content;
+    box-shadow: 0 20px 25px -5px rgb(0, 0, 0, 0.1),
+            0 10px 10px -5px rgb(0, 0, 0, 0.04);
+    text-transform: capitalize;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+}
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    text-transform: lowercase;
+}
+.input-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    gap: 10px;
+    font-size: 15px;
+    color: white;
+}
+.search-icon {
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+    color: white;
+}    
+.search-icon:hover {
+    transform: scale(1.25);
+}
+.input-button {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+} 
+.input-button1 {
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.3s ease-out;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+} 
+.input-button1:hover {
+    transform: scale(1.25);
+}
+.input-button p {
+    font-size: 24px;
+    font-size: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+.location-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.location-time p{
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.location p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.first-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.first-temp p {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(0, 51, 204);
+}
+.temp-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 22px;    
+}
+.temp-img img {
+    width: 70px;
+}
+.temp-img p {
+    font-size: 30px;
+    color: white;
+}
+.details {
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.detail-one {
+    display: flex;
+    font-weight: 300;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.detail-icon1 {
+    font-size: 16px;
+    margin-right: 8px;
+    color: white;
+}
+.detail-one span {
+    font-weight: 400;
+    margin-left: 8px;
+}
+.second-temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.detail-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.detail-two span {
+    font-weight: 400;
+    margin-left: 5px;
+    color: white;
+}
+.detail-two p {
+    font-weight: 200;
+    margin-left: 3.5px;
+    color: #000;
+}
+
+
+.forecast-top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 25px;
+}
+.forecast-top p {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+.forecast-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.data-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.data-detail p {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+}
+.data-detail img {
+    width: 70px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width:991px) {
+    .top-buttons {
+      font-size: 15px;
+      font-weight: 500;
+      padding-left: 7px;
+      padding-right: 7px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+    input {
+       font-size: 14px;
+       padding: 3px;
+    }
+    .search-icon {
+        font-size: 16px;
+    }
+    .input-button1 {
+        font-size: 16px;
+    }
+    .input-button p {
+        font-size: 19px;
+    }
+    .location-time p {
+        font-size: 14px;
+    }
+    .location p {
+        font-size: 18px;
+    }
+    .first-temp p {
+        font-size: 14.5px;
+    }
+    .temp-img img {
+        width: 42px;
+    }
+    .temp-img p {
+        font-size: 22px;
+        color: white;
+    }
+    .detail-one {
+        font-size: 12px;
+    }
+    .detail-icon1 {
+        font-size: 13.5px;
+    }
+    .second-temp {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+    .second-temp .detail-icon1 {
+        font-size: 11px;
+    }
+    .detail-two span {
+        font-size: 11px;
+        margin-left: 2px;
+        margin-right: 6px;
+    }
+    .detail-two p {
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    .forecast-top p {
+        font-size: 14px;
+    }
+    .data-detail p {
+        font-size: 11.5px;
+    }
+    .data-detail img {
+        width: 42px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width:599px) {
+    .top-buttons {
+      font-size: 13px;
+      font-weight: 500;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .input input {
+       font-size: 11.5px;
+       padding: 3px;
+    }
+    .search-icon {
+        font-size: 13px;
+    }
+    .input-button1 {
+        font-size: 13px;
+    }
+    .input-button p {
+        font-size: 12px;
+    }
+    .location-time p {
+        font-size: 12px;
+    }
+    .location p {
+        font-size: 15px;
+    }
+    .first-temp p {
+        font-size: 12.5px;
+    }
+    .temp-img img {
+        width: 35px;
+    }
+    .temp-img p {
+        font-size: 18px;
+        color: white;
+    }
+    .detail-one {
+        font-size: 10px;
+    }
+    .detail-icon1 {
+        font-size: 11.5px;
+    }
+    .second-temp {
+        font-size: 9px;
+        margin-left: 3px;
+    }
+    .second-temp .detail-icon1 {
+        font-size: 8px;
+    }
+    .detail-two span {
+        font-size: 8px;
+        margin-left: 2px;
+        margin-right: 6px;
+    }
+    .detail-two p {
+        font-size: 8px;
+        margin-left: 2px;
+    }
+    .forecast-top p {
+        font-size: 12px;
+    }
+    .data-detail p {
+        font-size: 9.5px;
+    }
+    .data-detail img {
+        width: 35px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width:419px) {
+    .top-buttons {
+      font-size: 11px;
+      font-weight: 500;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .input input {
+       font-size: 9.5px;
+       padding: 3px;
+    }
+    .search-icon {
+        font-size: 11px;
+    }
+    .input-button1 {
+        font-size: 11px;
+    }
+    .input-button p {
+        font-size: 10px;
+    }
+    .location-time p {
+        font-size: 10px;
+    }
+    .location p {
+        font-size: 13px;
+    }
+    .first-temp p {
+        font-size: 10.5px;
+    }
+    .temp-img img {
+        width: 25px;
+    }
+    .temp-img p {
+        font-size: 15px;
+        color: white;
+    }
+    .detail-one {
+        font-size: 8.5px;
+    }
+    .detail-icon1 {
+        font-size: 9.5px;
+    }
+    .second-temp {
+        font-size: 7.5px;
+        margin-left: 3px;
+    }
+    .second-temp .detail-icon1 {
+        font-size: 6px;
+    }
+    .detail-two span {
+        font-size: 6px;
+        margin-left: 2px;
+        margin-right: 6px;
+    }
+    .detail-two p {
+        font-size: 6px;
+        margin-left: 2px;
+    }
+    .forecast-top p {
+        font-size: 10px;
+    }
+    .data-detail p {
+        font-size: 7.5px;
+    }
+    .data-detail img {
+        width: 25px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (min-width: 230px) and (max-width:329px) {
+    .top-buttons {
+      font-size: 9.5px;
+      font-weight: 500;
+      padding-left: 3px;
+      padding-right: 3px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .input input {
+       font-size: 8.5px;
+       padding: 3px;
+    }
+    .search-icon {
+        font-size: 10px;
+    }
+    .input-button1 {
+        font-size: 10px;
+    }
+    .input-button p {
+        font-size: 9px;
+    }
+    .location-time p {
+        font-size: 9px;
+    }
+    .location p {
+        font-size: 11.5px;
+    }
+    .first-temp p {
+        font-size: 9px;
+    }
+    .temp-img img {
+        width: 20px;
+    }
+    .temp-img p {
+        font-size: 13.5px;
+        color: white;
+    }
+    .detail-one {
+        font-size: 7.5px;
+    }
+    .detail-icon1 {
+        font-size: 8.5px;
+    }
+    .second-temp {
+        font-size: 6.5px;
+        margin-left: 3px;
+    }
+    .second-temp .detail-icon1 {
+        font-size: 5px;
+    }
+    .detail-two span {
+        font-size: 5px;
+        margin-left: 2px;
+        margin-right: 6px;
+    }
+    .detail-two p {
+        font-size: 5px;
+        margin-left: 2px;
+    }
+    .forecast-top p {
+        font-size: 9px;
+    }
+    .data-detail p {
+        font-size: 6.5px;
+    }
+    .data-detail img {
+        width: 20px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+}
