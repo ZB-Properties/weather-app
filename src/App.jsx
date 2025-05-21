@@ -30,7 +30,7 @@ const App = () => {
     if (!weather) return "bg-sky-300";
   const threshold = units === "metric" ? 30 : 60;
 
-  return weather.temp <= threshold ? "bg-sky-300" : "bg-amber-600";
+  return weather.temp <= threshold ? "bg-sky-500" : "bg-amber-600";
   };
 
 
